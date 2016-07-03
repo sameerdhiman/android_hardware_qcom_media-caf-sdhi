@@ -68,7 +68,9 @@ enum {
     kKeyHFR                  = 'hfr ',  // int32_t
     kKeyHSR                  = 'hsr ',  // int32_t
 
+#if 0
     kKeySampleBits        = 'sbit', // int32_t (audio sample bit-width)
+#endif
 };
 
 #if 0
