@@ -68,6 +68,12 @@ enum {
     kKeyHFR                  = 'hfr ',  // int32_t
     kKeyHSR                  = 'hsr ',  // int32_t
 
+    kKeyMinBlkSize        = 'mibs', //int32_t
+    kKeyMaxBlkSize        = 'mabs', //int32_t
+    kKeyMinFrmSize        = 'mifs', //int32_t
+    kKeyMaxFrmSize        = 'mafs', //int32_t
+    kKeyMd5Sum            = 'md5s', //cstring
+
 #if 0
     kKeySampleBits        = 'sbit', // int32_t (audio sample bit-width)
 #endif
